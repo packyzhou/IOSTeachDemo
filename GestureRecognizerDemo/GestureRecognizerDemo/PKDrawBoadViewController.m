@@ -79,6 +79,7 @@
 -(void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
 {
     CGPoint localCoordinate = [[touches anyObject] locationInView:self.view];
+    
 //    NSLog(@"结束Touch:%f,%f",localCoordinate.x,localCoordinate.y);
     
 }

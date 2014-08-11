@@ -43,6 +43,7 @@
     //添加双击手势
     UITapGestureRecognizer *doubleGestureRecognizer = [[UITapGestureRecognizer  alloc] initWithTarget:self action:@selector(doubleTapHandle:)];
     doubleGestureRecognizer.numberOfTapsRequired = 2;
+    
     [view addGestureRecognizer:doubleGestureRecognizer];
 
     [gestureRecognizer requireGestureRecognizerToFail:doubleGestureRecognizer];
