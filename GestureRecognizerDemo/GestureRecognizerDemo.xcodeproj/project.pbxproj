@@ -19,6 +19,12 @@
 		8EA0CEBD19975CDC008D2822 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA0CEA519975CDC008D2822 /* UIKit.framework */; };
 		8EA0CEC519975CDD008D2822 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EA0CEC319975CDD008D2822 /* InfoPlist.strings */; };
 		8EA0CEC719975CDD008D2822 /* GestureRecognizerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA0CEC619975CDD008D2822 /* GestureRecognizerDemoTests.m */; };
+		8EA0CED91997955D008D2822 /* PKGestureRecognizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA0CED71997955D008D2822 /* PKGestureRecognizerViewController.m */; };
+		8EA0CEDA1997955D008D2822 /* PKGestureRecognizerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EA0CED81997955D008D2822 /* PKGestureRecognizerViewController.xib */; };
+		8EA0CEE11997A48C008D2822 /* UIColor+PKRandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA0CEE01997A48C008D2822 /* UIColor+PKRandomColor.m */; };
+		8EA0CEE51997B73D008D2822 /* PKDrawBoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA0CEE31997B73D008D2822 /* PKDrawBoadViewController.m */; };
+		8EA0CEE61997B73D008D2822 /* PKDrawBoadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EA0CEE41997B73D008D2822 /* PKDrawBoadViewController.xib */; };
+		8EA0CEE9199842B0008D2822 /* PKCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA0CEE8199842B0008D2822 /* PKCanvasView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,16 @@
 		8EA0CEC219975CDC008D2822 /* GestureRecognizerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GestureRecognizerDemoTests-Info.plist"; sourceTree = "<group>"; };
 		8EA0CEC419975CDD008D2822 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8EA0CEC619975CDD008D2822 /* GestureRecognizerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureRecognizerDemoTests.m; sourceTree = "<group>"; };
+		8EA0CED61997955D008D2822 /* PKGestureRecognizerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKGestureRecognizerViewController.h; sourceTree = "<group>"; };
+		8EA0CED71997955D008D2822 /* PKGestureRecognizerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKGestureRecognizerViewController.m; sourceTree = "<group>"; };
+		8EA0CED81997955D008D2822 /* PKGestureRecognizerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKGestureRecognizerViewController.xib; sourceTree = "<group>"; };
+		8EA0CEDF1997A48C008D2822 /* UIColor+PKRandomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PKRandomColor.h"; sourceTree = "<group>"; };
+		8EA0CEE01997A48C008D2822 /* UIColor+PKRandomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PKRandomColor.m"; sourceTree = "<group>"; };
+		8EA0CEE21997B73D008D2822 /* PKDrawBoadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDrawBoadViewController.h; sourceTree = "<group>"; };
+		8EA0CEE31997B73D008D2822 /* PKDrawBoadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDrawBoadViewController.m; sourceTree = "<group>"; };
+		8EA0CEE41997B73D008D2822 /* PKDrawBoadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKDrawBoadViewController.xib; sourceTree = "<group>"; };
+		8EA0CEE7199842B0008D2822 /* PKCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKCanvasView.h; sourceTree = "<group>"; };
+		8EA0CEE8199842B0008D2822 /* PKCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKCanvasView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +123,10 @@
 		8EA0CEA719975CDC008D2822 /* GestureRecognizerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8EA0CED319976012008D2822 /* class */,
+				8EA0CED219976003008D2822 /* xib */,
+				8EA0CED119975FF9008D2822 /* view */,
+				8EA0CED019975FEE008D2822 /* controller */,
 				8EA0CEB019975CDC008D2822 /* PKAppDelegate.h */,
 				8EA0CEB119975CDC008D2822 /* PKAppDelegate.m */,
 				8EA0CEB319975CDC008D2822 /* Images.xcassets */,
@@ -142,6 +162,44 @@
 				8EA0CEC319975CDD008D2822 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EA0CED019975FEE008D2822 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				8EA0CED61997955D008D2822 /* PKGestureRecognizerViewController.h */,
+				8EA0CED71997955D008D2822 /* PKGestureRecognizerViewController.m */,
+				8EA0CEE21997B73D008D2822 /* PKDrawBoadViewController.h */,
+				8EA0CEE31997B73D008D2822 /* PKDrawBoadViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		8EA0CED119975FF9008D2822 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				8EA0CEE7199842B0008D2822 /* PKCanvasView.h */,
+				8EA0CEE8199842B0008D2822 /* PKCanvasView.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		8EA0CED219976003008D2822 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				8EA0CED81997955D008D2822 /* PKGestureRecognizerViewController.xib */,
+				8EA0CEE41997B73D008D2822 /* PKDrawBoadViewController.xib */,
+			);
+			name = xib;
+			sourceTree = "<group>";
+		};
+		8EA0CED319976012008D2822 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				8EA0CEDF1997A48C008D2822 /* UIColor+PKRandomColor.h */,
+				8EA0CEE01997A48C008D2822 /* UIColor+PKRandomColor.m */,
+			);
+			name = class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +280,8 @@
 			files = (
 				8EA0CEAC19975CDC008D2822 /* InfoPlist.strings in Resources */,
 				8EA0CEB419975CDC008D2822 /* Images.xcassets in Resources */,
+				8EA0CEDA1997955D008D2822 /* PKGestureRecognizerViewController.xib in Resources */,
+				8EA0CEE61997B73D008D2822 /* PKDrawBoadViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +301,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EA0CEAE19975CDC008D2822 /* main.m in Sources */,
+				8EA0CEE11997A48C008D2822 /* UIColor+PKRandomColor.m in Sources */,
+				8EA0CEE51997B73D008D2822 /* PKDrawBoadViewController.m in Sources */,
+				8EA0CED91997955D008D2822 /* PKGestureRecognizerViewController.m in Sources */,
 				8EA0CEB219975CDC008D2822 /* PKAppDelegate.m in Sources */,
+				8EA0CEE9199842B0008D2822 /* PKCanvasView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +426,7 @@
 				GCC_PREFIX_HEADER = "GestureRecognizerDemo/GestureRecognizerDemo-Prefix.pch";
 				INFOPLIST_FILE = "GestureRecognizerDemo/GestureRecognizerDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7991C245-F95B-424B-A6AD-ED85F7B30620";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -375,6 +440,7 @@
 				GCC_PREFIX_HEADER = "GestureRecognizerDemo/GestureRecognizerDemo-Prefix.pch";
 				INFOPLIST_FILE = "GestureRecognizerDemo/GestureRecognizerDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7991C245-F95B-424B-A6AD-ED85F7B30620";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

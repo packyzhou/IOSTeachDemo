@@ -14,6 +14,9 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    PKGestureRecognizerViewController *gestureRecognizerController = [[PKGestureRecognizerViewController alloc] initWithNibName:@"PKGestureRecognizerViewController" bundle:nil];
+    UINavigationController *rootController = [[UINavigationController alloc] initWithRootViewController:gestureRecognizerController];
+    self.window.rootViewController = rootController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
