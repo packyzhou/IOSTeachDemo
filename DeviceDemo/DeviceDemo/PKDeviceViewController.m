@@ -62,7 +62,7 @@
         [motionManager startAccelerometerUpdates]; // 开始更新，后台线程开始运行。这是pull方式。
         NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(updateAccelermeterThread) userInfo:nil repeats:YES];
         [timer fire];
-        motionManager start
+        
         //方法二
 //        [motionManager startAccelerometerUpdatesToQueue:[NSOperationQueue currentQueue] withHandler:^(CMAccelerometerData *accelerometerData, NSError *error) {
 //            _xLable.text = [NSString stringWithFormat:@"%f",accelerometerData.acceleration.x ];

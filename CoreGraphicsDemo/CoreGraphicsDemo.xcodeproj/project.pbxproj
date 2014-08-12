@@ -13,8 +13,8 @@
 		8E702D3C197A6B5D00F238FB /* PKDrawRectTestButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E702D3B197A6B5D00F238FB /* PKDrawRectTestButton.m */; };
 		8E9E11F119800CBD008305A1 /* PKLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9E11F019800CBD008305A1 /* PKLayerView.m */; };
 		8E9E11F41980B7B7008305A1 /* PKTiledView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9E11F31980B7B7008305A1 /* PKTiledView.m */; };
-		8E9E176319813A84008305A1 /* CuriousFrog.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E9E173A19813A84008305A1 /* CuriousFrog.png */; };
 		8E9E17661981425F008305A1 /* PKContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9E17651981425F008305A1 /* PKContext.m */; };
+		8EA0CED519976D14008D2822 /* CuriousFrog.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EA0CED419976D14008D2822 /* CuriousFrog.png */; };
 		8EB059B21977982600528B11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB059B11977982600528B11 /* Foundation.framework */; };
 		8EB059B41977982600528B11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB059B31977982600528B11 /* CoreGraphics.framework */; };
 		8EB059B61977982600528B11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB059B51977982600528B11 /* UIKit.framework */; };
@@ -63,9 +63,9 @@
 		8E9E11F019800CBD008305A1 /* PKLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKLayerView.m; sourceTree = "<group>"; };
 		8E9E11F21980B7B7008305A1 /* PKTiledView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKTiledView.h; sourceTree = "<group>"; };
 		8E9E11F31980B7B7008305A1 /* PKTiledView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKTiledView.m; sourceTree = "<group>"; };
-		8E9E173A19813A84008305A1 /* CuriousFrog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CuriousFrog.png; path = ../../../../Desktop/frog/CuriousFrog.png; sourceTree = "<group>"; };
 		8E9E17641981425F008305A1 /* PKContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKContext.h; sourceTree = "<group>"; };
 		8E9E17651981425F008305A1 /* PKContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKContext.m; sourceTree = "<group>"; };
+		8EA0CED419976D14008D2822 /* CuriousFrog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CuriousFrog.png; path = ../../../../../Desktop/frog/CuriousFrog.png; sourceTree = "<group>"; };
 		8EB059AE1977982600528B11 /* CoreGraphicsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreGraphicsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB059B11977982600528B11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8EB059B31977982600528B11 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -265,7 +265,7 @@
 		8EB05A2D1978B6D700528B11 /* source */ = {
 			isa = PBXGroup;
 			children = (
-				8E9E173A19813A84008305A1 /* CuriousFrog.png */,
+				8EA0CED419976D14008D2822 /* CuriousFrog.png */,
 			);
 			name = source;
 			sourceTree = "<group>";
@@ -356,13 +356,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EA0CED519976D14008D2822 /* CuriousFrog.png in Resources */,
 				8EB05A2519779D3300528B11 /* PKMainViewController.xib in Resources */,
 				8E662E841983E7690035E791 /* PKAnimationViewController.xib in Resources */,
 				8EB05A421978C2E400528B11 /* PKGreenViewController.xib in Resources */,
 				8EB05A331978C18900528B11 /* PKRedViewController.xib in Resources */,
 				8EB059CA1977982600528B11 /* Images.xcassets in Resources */,
 				8EB059BC1977982600528B11 /* InfoPlist.strings in Resources */,
-				8E9E176319813A84008305A1 /* CuriousFrog.png in Resources */,
 				8EB05A381978C2A000528B11 /* PKYellowViewController.xib in Resources */,
 				8EB05A3D1978C2D400528B11 /* PKBlueViewController.xib in Resources */,
 			);
