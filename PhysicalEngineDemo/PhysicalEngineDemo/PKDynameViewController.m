@@ -76,9 +76,9 @@
     
     [self.view addSubview:objectView];
     [self.view addSubview:objectView1];
-//    [self.view addSubview:objectView2];
-//    [self.view addSubview:objectView3];
-//    [self.view addSubview:objectView4];
+    [self.view addSubview:objectView2];
+    [self.view addSubview:objectView3];
+    [self.view addSubview:objectView4];
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }
@@ -171,16 +171,16 @@
 
 -(void) gravityBehaviorTodo
 {
-//    UIGravityBehavior *gravityBehavior = [[UIGravityBehavior alloc] initWithItems:@[objectView,objectView1,objectView2,objectView3,objectView4]];
-     gravityBehavior = [[UIGravityBehavior alloc] initWithItems:@[objectView]];
+   gravityBehavior = [[UIGravityBehavior alloc] initWithItems:@[objectView,objectView1,objectView2,objectView3,objectView4]];
+//     gravityBehavior = [[UIGravityBehavior alloc] initWithItems:@[objectView]];
     
     [dynamicAnimator addBehavior:gravityBehavior];
 }
 
 -(void) collisionBehaviorTodo
 {
-//    UICollisionBehavior *collisionBehavior = [[UICollisionBehavior alloc] initWithItems:@[objectView,objectView1,objectView2,objectView3,objectView4]];
-    collisionBehavior = [[UICollisionBehavior alloc] initWithItems:@[objectView]];
+    collisionBehavior = [[UICollisionBehavior alloc] initWithItems:@[objectView,objectView1,objectView2,objectView3,objectView4]];
+//    collisionBehavior = [[UICollisionBehavior alloc] initWithItems:@[objectView]];
     collisionBehavior.translatesReferenceBoundsIntoBoundary = YES;
     [dynamicAnimator addBehavior:collisionBehavior];
 }
