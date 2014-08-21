@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E36137C19A5AA03003AB28E /* PKUISegmentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E36137A19A5AA03003AB28E /* PKUISegmentedViewController.m */; };
+		8E36137D19A5AA03003AB28E /* PKUISegmentedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E36137B19A5AA03003AB28E /* PKUISegmentedViewController.xib */; };
+		8E36138119A60A3A003AB28E /* PKUITextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E36137F19A60A3A003AB28E /* PKUITextFieldViewController.m */; };
+		8E36138219A60A3A003AB28E /* PKUITextFieldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E36138019A60A3A003AB28E /* PKUITextFieldViewController.xib */; };
+		8E36138619A62DB0003AB28E /* PKUISliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E36138419A62DB0003AB28E /* PKUISliderViewController.m */; };
+		8E36138719A62DB0003AB28E /* PKUISliderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E36138519A62DB0003AB28E /* PKUISliderViewController.xib */; };
+		8E3613BF19A634AE003AB28E /* moveButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E3613BB19A634AE003AB28E /* moveButton.png */; };
+		8E3613C019A634AE003AB28E /* minImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E3613BC19A634AE003AB28E /* minImage.png */; };
+		8E3613C119A634AE003AB28E /* maxImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E3613BD19A634AE003AB28E /* maxImage.png */; };
+		8E3613C219A634AE003AB28E /* backgroundStrip.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E3613BE19A634AE003AB28E /* backgroundStrip.png */; };
+		8E5B08B519A0D856009EB031 /* PKUIActivityIndicatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B08B419A0D856009EB031 /* PKUIActivityIndicatorViewController.m */; };
+		8E5B08B719A0DBD7009EB031 /* PKUIActivityIndicatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B08B619A0DBD7009EB031 /* PKUIActivityIndicatorViewController.xib */; };
+		8E5B08BD19A10804009EB031 /* PKUIImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B08BB19A10804009EB031 /* PKUIImageViewController.m */; };
+		8E5B08BE19A10804009EB031 /* PKUIImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B08BC19A10804009EB031 /* PKUIImageViewController.xib */; };
+		8E5B08C219A109B0009EB031 /* cat4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B08BF19A109B0009EB031 /* cat4.jpeg */; };
+		8E5B08C319A109B0009EB031 /* cat3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B08C019A109B0009EB031 /* cat3.jpeg */; };
+		8E5B08C419A109B0009EB031 /* cat2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B08C119A109B0009EB031 /* cat2.jpg */; };
+		8E5B08C619A10FB2009EB031 /* cat1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B08C519A10FB2009EB031 /* cat1.jpg */; };
+		8E5B08CA19A1969A009EB031 /* PKUITabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B08C819A1969A009EB031 /* PKUITabBarViewController.m */; };
+		8E5B08CB19A1969A009EB031 /* PKUITabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B08C919A1969A009EB031 /* PKUITabBarViewController.xib */; };
+		8E5B08D019A1A518009EB031 /* sport_status.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B08CC19A1A518009EB031 /* sport_status.png */; };
+		8E5B08D119A1A518009EB031 /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B08CD19A1A518009EB031 /* more.png */; };
+		8E5B08D219A1A518009EB031 /* main_page.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B08CE19A1A518009EB031 /* main_page.png */; };
+		8E5B08D319A1A518009EB031 /* count_tool.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B08CF19A1A518009EB031 /* count_tool.png */; };
+		8E5B08D619A1B6B1009EB031 /* champion.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B08D419A1B6B1009EB031 /* champion.png */; };
+		8E5B08D719A1B6B1009EB031 /* basketball.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B08D519A1B6B1009EB031 /* basketball.png */; };
+		8E5B08DE19A1C889009EB031 /* black_y.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B08DD19A1C889009EB031 /* black_y.png */; };
+		8E5B08E519A1E83A009EB031 /* PKUIToolBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B08E319A1E83A009EB031 /* PKUIToolBarViewController.m */; };
+		8E5B08E619A1E83A009EB031 /* PKUIToolBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B08E419A1E83A009EB031 /* PKUIToolBarViewController.xib */; };
+		8E5B08EA19A1F688009EB031 /* PKUIActionSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B08E819A1F688009EB031 /* PKUIActionSheetViewController.m */; };
+		8E5B08EB19A1F688009EB031 /* PKUIActionSheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B08E919A1F688009EB031 /* PKUIActionSheetViewController.xib */; };
+		8E5B08EF19A23421009EB031 /* PKUIAertViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B08ED19A23421009EB031 /* PKUIAertViewViewController.m */; };
+		8E5B08F019A23421009EB031 /* PKUIAertViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B08EE19A23421009EB031 /* PKUIAertViewViewController.xib */; };
+		8E5B08F419A2FC75009EB031 /* PKUIScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B08F219A2FC75009EB031 /* PKUIScrollViewController.m */; };
+		8E5B08F519A2FC75009EB031 /* PKUIScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B08F319A2FC75009EB031 /* PKUIScrollViewController.xib */; };
+		8E5B08FB19A30A56009EB031 /* CuriousFrog.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B08F819A30A56009EB031 /* CuriousFrog.png */; };
+		8E5B08FF19A35BFF009EB031 /* PKUITextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B08FD19A35BFF009EB031 /* PKUITextViewController.m */; };
+		8E5B090019A35BFF009EB031 /* PKUITextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B08FE19A35BFF009EB031 /* PKUITextViewController.xib */; };
+		8E5B090419A370FE009EB031 /* PKUISearchBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B090219A370FE009EB031 /* PKUISearchBarViewController.m */; };
+		8E5B090519A370FE009EB031 /* PKUISearchBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B090319A370FE009EB031 /* PKUISearchBarViewController.xib */; };
+		8E5B090919A43501009EB031 /* PKUIControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B090719A43501009EB031 /* PKUIControlViewController.m */; };
+		8E5B090A19A43501009EB031 /* PKUIControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B090819A43501009EB031 /* PKUIControlViewController.xib */; };
+		8E5B090E19A44F7F009EB031 /* PKUIButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B090C19A44F7F009EB031 /* PKUIButtonViewController.m */; };
+		8E5B090F19A44F7F009EB031 /* PKUIButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B090D19A44F7F009EB031 /* PKUIButtonViewController.xib */; };
+		8E5B091119A4627B009EB031 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B091019A4627B009EB031 /* background.png */; };
+		8E5B091519A469BE009EB031 /* PKUIProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B091319A469BE009EB031 /* PKUIProgressViewController.m */; };
+		8E5B091619A469BE009EB031 /* PKUIProgressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B091419A469BE009EB031 /* PKUIProgressViewController.xib */; };
+		8E5B091919A481DF009EB031 /* progressfg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B091719A481DF009EB031 /* progressfg.png */; };
+		8E5B091A19A481DF009EB031 /* progressbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B091819A481DF009EB031 /* progressbg.png */; };
+		8E5B091E19A496E1009EB031 /* PKPageControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B091C19A496E1009EB031 /* PKPageControlViewController.m */; };
+		8E5B091F19A496E1009EB031 /* PKPageControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B091D19A496E1009EB031 /* PKPageControlViewController.xib */; };
+		8E8AA4B8199C9D3E00547AA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8AA4B7199C9D3E00547AA2 /* Foundation.framework */; };
+		8E8AA4BA199C9D3E00547AA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8AA4B9199C9D3E00547AA2 /* CoreGraphics.framework */; };
+		8E8AA4BC199C9D3E00547AA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8AA4BB199C9D3E00547AA2 /* UIKit.framework */; };
+		8E8AA4C2199C9D3E00547AA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E8AA4C0199C9D3E00547AA2 /* InfoPlist.strings */; };
+		8E8AA4C4199C9D3E00547AA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8AA4C3199C9D3E00547AA2 /* main.m */; };
+		8E8AA4C8199C9D3E00547AA2 /* PKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8AA4C7199C9D3E00547AA2 /* PKAppDelegate.m */; };
+		8E8AA4CA199C9D3E00547AA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8AA4C9199C9D3E00547AA2 /* Images.xcassets */; };
+		8E8AA4D1199C9D3E00547AA2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8AA4D0199C9D3E00547AA2 /* XCTest.framework */; };
+		8E8AA4D2199C9D3E00547AA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8AA4B7199C9D3E00547AA2 /* Foundation.framework */; };
+		8E8AA4D3199C9D3E00547AA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8AA4BB199C9D3E00547AA2 /* UIKit.framework */; };
+		8E8AA4DB199C9D3E00547AA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E8AA4D9199C9D3E00547AA2 /* InfoPlist.strings */; };
+		8E8AA4DD199C9D3E00547AA2 /* PKUIkitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8AA4DC199C9D3E00547AA2 /* PKUIkitDemoTests.m */; };
+		8E8AA4FC199DC79700547AA2 /* PKMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8AA4FA199DC79700547AA2 /* PKMainViewController.m */; };
+		8E8AA4FD199DC79700547AA2 /* PKMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E8AA4FB199DC79700547AA2 /* PKMainViewController.xib */; };
+		8E8AA50A199E342300547AA2 /* PKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8AA508199E342300547AA2 /* PKTableViewController.m */; };
+		8E8AA50B199E342300547AA2 /* PKTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E8AA509199E342300547AA2 /* PKTableViewController.xib */; };
+		8E8AA50F199F0B2300547AA2 /* file.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E8AA50D199F0B2300547AA2 /* file.png */; };
+		8E8AA510199F0B2300547AA2 /* dir.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E8AA50E199F0B2300547AA2 /* dir.png */; };
+		8E8AA512199F112000547AA2 /* detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E8AA511199F112000547AA2 /* detail.png */; };
+		8E8AA517199FBBBA00547AA2 /* PKUILabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8AA515199FBBBA00547AA2 /* PKUILabelViewController.m */; };
+		8E8AA518199FBBBA00547AA2 /* PKUILabelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E8AA516199FBBBA00547AA2 /* PKUILabelViewController.xib */; };
+		8E8AA51C19A053C800547AA2 /* PKUIPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8AA51A19A053C800547AA2 /* PKUIPickerViewController.m */; };
+		8E8AA51D19A053C800547AA2 /* PKUIPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E8AA51B19A053C800547AA2 /* PKUIPickerViewController.xib */; };
+		8E8AA52219A097B300547AA2 /* PKUIDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8AA52019A097B300547AA2 /* PKUIDatePickerViewController.m */; };
+		8E8AA52319A097B300547AA2 /* PKUIDatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E8AA52119A097B300547AA2 /* PKUIDatePickerViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E8AA4D4199C9D3E00547AA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E8AA4AC199C9D3E00547AA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E8AA4B3199C9D3E00547AA2;
+			remoteInfo = PKUIkitDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E36137919A5AA03003AB28E /* PKUISegmentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKUISegmentedViewController.h; sourceTree = "<group>"; };
+		8E36137A19A5AA03003AB28E /* PKUISegmentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKUISegmentedViewController.m; sourceTree = "<group>"; };
+		8E36137B19A5AA03003AB28E /* PKUISegmentedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKUISegmentedViewController.xib; sourceTree = "<group>"; };
+		8E36137E19A60A3A003AB28E /* PKUITextFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKUITextFieldViewController.h; sourceTree = "<group>"; };
+		8E36137F19A60A3A003AB28E /* PKUITextFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKUITextFieldViewController.m; sourceTree = "<group>"; };
+		8E36138019A60A3A003AB28E /* PKUITextFieldViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKUITextFieldViewController.xib; sourceTree = "<group>"; };
+		8E36138319A62DB0003AB28E /* PKUISliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKUISliderViewController.h; sourceTree = "<group>"; };
+		8E36138419A62DB0003AB28E /* PKUISliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKUISliderViewController.m; sourceTree = "<group>"; };
+		8E36138519A62DB0003AB28E /* PKUISliderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKUISliderViewController.xib; sourceTree = "<group>"; };
+		8E3613BB19A634AE003AB28E /* moveButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moveButton.png; path = ../../../../../Desktop/frog/moveButton.png; sourceTree = "<group>"; };
+		8E3613BC19A634AE003AB28E /* minImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = minImage.png; path = ../../../../../Desktop/frog/minImage.png; sourceTree = "<group>"; };
+		8E3613BD19A634AE003AB28E /* maxImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = maxImage.png; path = ../../../../../Desktop/frog/maxImage.png; sourceTree = "<group>"; };
+		8E3613BE19A634AE003AB28E /* backgroundStrip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backgroundStrip.png; path = ../../../../../Desktop/frog/backgroundStrip.png; sourceTree = "<group>"; };
+		8E5B08B319A0D856009EB031 /* PKUIActivityIndicatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKUIActivityIndicatorViewController.h; sourceTree = "<group>"; };
+		8E5B08B419A0D856009EB031 /* PKUIActivityIndicatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKUIActivityIndicatorViewController.m; sourceTree = "<group>"; };
+		8E5B08B619A0DBD7009EB031 /* PKUIActivityIndicatorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKUIActivityIndicatorViewController.xib; sourceTree = "<group>"; };
+		8E5B08BA19A10804009EB031 /* PKUIImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKUIImageViewController.h; sourceTree = "<group>"; };
+		8E5B08BB19A10804009EB031 /* PKUIImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKUIImageViewController.m; sourceTree = "<group>"; };
+		8E5B08BC19A10804009EB031 /* PKUIImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKUIImageViewController.xib; sourceTree = "<group>"; };
+		8E5B08BF19A109B0009EB031 /* cat4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat4.jpeg; path = ../../../../../Desktop/frog/cat4.jpeg; sourceTree = "<group>"; };
+		8E5B08C019A109B0009EB031 /* cat3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat3.jpeg; path = ../../../../../Desktop/frog/cat3.jpeg; sourceTree = "<group>"; };
+		8E5B08C119A109B0009EB031 /* cat2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat2.jpg; path = ../../../../../Desktop/frog/cat2.jpg; sourceTree = "<group>"; };
+		8E5B08C519A10FB2009EB031 /* cat1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat1.jpg; path = ../../../../../Desktop/frog/cat1.jpg; sourceTree = "<group>"; };
+		8E5B08C719A1969A009EB031 /* PKUITabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKUITabBarViewController.h; sourceTree = "<group>"; };
+		8E5B08C819A1969A009EB031 /* PKUITabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKUITabBarViewController.m; sourceTree = "<group>"; };
+		8E5B08C919A1969A009EB031 /* PKUITabBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKUITabBarViewController.xib; sourceTree = "<group>"; };
+		8E5B08CC19A1A518009EB031 /* sport_status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sport_status.png; path = ../../../../../Desktop/frog/sport_status.png; sourceTree = "<group>"; };
+		8E5B08CD19A1A518009EB031 /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = more.png; path = ../../../../../Desktop/frog/more.png; sourceTree = "<group>"; };
+		8E5B08CE19A1A518009EB031 /* main_page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = main_page.png; path = ../../../../../Desktop/frog/main_page.png; sourceTree = "<group>"; };
+		8E5B08CF19A1A518009EB031 /* count_tool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = count_tool.png; path = ../../../../../Desktop/frog/count_tool.png; sourceTree = "<group>"; };
+		8E5B08D419A1B6B1009EB031 /* champion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = champion.png; path = ../../../../../Desktop/frog/champion.png; sourceTree = "<group>"; };
+		8E5B08D519A1B6B1009EB031 /* basketball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = basketball.png; path = ../../../../../Desktop/frog/basketball.png; sourceTree = "<group>"; };
+		8E5B08DD19A1C889009EB031 /* black_y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = black_y.png; path = ../../../../../Desktop/frog/black_y.png; sourceTree = "<group>"; };
+		8E5B08E219A1E83A009EB031 /* PKUIToolBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKUIToolBarViewController.h; sourceTree = "<group>"; };
+		8E5B08E319A1E83A009EB031 /* PKUIToolBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKUIToolBarViewController.m; sourceTree = "<group>"; };
+		8E5B08E419A1E83A009EB031 /* PKUIToolBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKUIToolBarViewController.xib; sourceTree = "<group>"; };
+		8E5B08E719A1F688009EB031 /* PKUIActionSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKUIActionSheetViewController.h; sourceTree = "<group>"; };
+		8E5B08E819A1F688009EB031 /* PKUIActionSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKUIActionSheetViewController.m; sourceTree = "<group>"; };
+		8E5B08E919A1F688009EB031 /* PKUIActionSheetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKUIActionSheetViewController.xib; sourceTree = "<group>"; };
+		8E5B08EC19A23421009EB031 /* PKUIAertViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKUIAertViewViewController.h; sourceTree = "<group>"; };
+		8E5B08ED19A23421009EB031 /* PKUIAertViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKUIAertViewViewController.m; sourceTree = "<group>"; };
+		8E5B08EE19A23421009EB031 /* PKUIAertViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKUIAertViewViewController.xib; sourceTree = "<group>"; };
+		8E5B08F119A2FC75009EB031 /* PKUIScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKUIScrollViewController.h; sourceTree = "<group>"; };
+		8E5B08F219A2FC75009EB031 /* PKUIScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKUIScrollViewController.m; sourceTree = "<group>"; };
+		8E5B08F319A2FC75009EB031 /* PKUIScrollViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKUIScrollViewController.xib; sourceTree = "<group>"; };
+		8E5B08F819A30A56009EB031 /* CuriousFrog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CuriousFrog.png; path = ../../../../../Desktop/frog/CuriousFrog.png; sourceTree = "<group>"; };
+		8E5B08FC19A35BFF009EB031 /* PKUITextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKUITextViewController.h; sourceTree = "<group>"; };
+		8E5B08FD19A35BFF009EB031 /* PKUITextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKUITextViewController.m; sourceTree = "<group>"; };
+		8E5B08FE19A35BFF009EB031 /* PKUITextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKUITextViewController.xib; sourceTree = "<group>"; };
+		8E5B090119A370FE009EB031 /* PKUISearchBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKUISearchBarViewController.h; sourceTree = "<group>"; };
+		8E5B090219A370FE009EB031 /* PKUISearchBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKUISearchBarViewController.m; sourceTree = "<group>"; };
+		8E5B090319A370FE009EB031 /* PKUISearchBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKUISearchBarViewController.xib; sourceTree = "<group>"; };
+		8E5B090619A43501009EB031 /* PKUIControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKUIControlViewController.h; sourceTree = "<group>"; };
+		8E5B090719A43501009EB031 /* PKUIControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKUIControlViewController.m; sourceTree = "<group>"; };
+		8E5B090819A43501009EB031 /* PKUIControlViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKUIControlViewController.xib; sourceTree = "<group>"; };
+		8E5B090B19A44F7F009EB031 /* PKUIButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKUIButtonViewController.h; sourceTree = "<group>"; };
+		8E5B090C19A44F7F009EB031 /* PKUIButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKUIButtonViewController.m; sourceTree = "<group>"; };
+		8E5B090D19A44F7F009EB031 /* PKUIButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKUIButtonViewController.xib; sourceTree = "<group>"; };
+		8E5B091019A4627B009EB031 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../../../../Desktop/frog/background.png; sourceTree = "<group>"; };
+		8E5B091219A469BE009EB031 /* PKUIProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKUIProgressViewController.h; sourceTree = "<group>"; };
+		8E5B091319A469BE009EB031 /* PKUIProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKUIProgressViewController.m; sourceTree = "<group>"; };
+		8E5B091419A469BE009EB031 /* PKUIProgressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKUIProgressViewController.xib; sourceTree = "<group>"; };
+		8E5B091719A481DF009EB031 /* progressfg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = progressfg.png; path = ../../../../../Desktop/frog/progressfg.png; sourceTree = "<group>"; };
+		8E5B091819A481DF009EB031 /* progressbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = progressbg.png; path = ../../../../../Desktop/frog/progressbg.png; sourceTree = "<group>"; };
+		8E5B091B19A496E1009EB031 /* PKPageControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKPageControlViewController.h; sourceTree = "<group>"; };
+		8E5B091C19A496E1009EB031 /* PKPageControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKPageControlViewController.m; sourceTree = "<group>"; };
+		8E5B091D19A496E1009EB031 /* PKPageControlViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKPageControlViewController.xib; sourceTree = "<group>"; };
+		8E8AA4B4199C9D3E00547AA2 /* PKUIkitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PKUIkitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E8AA4B7199C9D3E00547AA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8E8AA4B9199C9D3E00547AA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8E8AA4BB199C9D3E00547AA2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8E8AA4BF199C9D3E00547AA2 /* PKUIkitDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PKUIkitDemo-Info.plist"; sourceTree = "<group>"; };
+		8E8AA4C1199C9D3E00547AA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E8AA4C3199C9D3E00547AA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E8AA4C5199C9D3E00547AA2 /* PKUIkitDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PKUIkitDemo-Prefix.pch"; sourceTree = "<group>"; };
+		8E8AA4C6199C9D3E00547AA2 /* PKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKAppDelegate.h; sourceTree = "<group>"; };
+		8E8AA4C7199C9D3E00547AA2 /* PKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKAppDelegate.m; sourceTree = "<group>"; };
+		8E8AA4C9199C9D3E00547AA2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8E8AA4CF199C9D3E00547AA2 /* PKUIkitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PKUIkitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E8AA4D0199C9D3E00547AA2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8E8AA4D8199C9D3E00547AA2 /* PKUIkitDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PKUIkitDemoTests-Info.plist"; sourceTree = "<group>"; };
+		8E8AA4DA199C9D3E00547AA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8E8AA4DC199C9D3E00547AA2 /* PKUIkitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKUIkitDemoTests.m; sourceTree = "<group>"; };
+		8E8AA4F9199DC79700547AA2 /* PKMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKMainViewController.h; sourceTree = "<group>"; };
+		8E8AA4FA199DC79700547AA2 /* PKMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKMainViewController.m; sourceTree = "<group>"; };
+		8E8AA4FB199DC79700547AA2 /* PKMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKMainViewController.xib; sourceTree = "<group>"; };
+		8E8AA507199E342300547AA2 /* PKTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKTableViewController.h; sourceTree = "<group>"; };
+		8E8AA508199E342300547AA2 /* PKTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKTableViewController.m; sourceTree = "<group>"; };
+		8E8AA509199E342300547AA2 /* PKTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKTableViewController.xib; sourceTree = "<group>"; };
+		8E8AA50D199F0B2300547AA2 /* file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = file.png; path = ../../../../../Desktop/frog/file.png; sourceTree = "<group>"; };
+		8E8AA50E199F0B2300547AA2 /* dir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dir.png; path = ../../../../../Desktop/frog/dir.png; sourceTree = "<group>"; };
+		8E8AA511199F112000547AA2 /* detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = detail.png; path = ../../../../../Desktop/frog/detail.png; sourceTree = "<group>"; };
+		8E8AA514199FBBBA00547AA2 /* PKUILabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKUILabelViewController.h; sourceTree = "<group>"; };
+		8E8AA515199FBBBA00547AA2 /* PKUILabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKUILabelViewController.m; sourceTree = "<group>"; };
+		8E8AA516199FBBBA00547AA2 /* PKUILabelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKUILabelViewController.xib; sourceTree = "<group>"; };
+		8E8AA51919A053C800547AA2 /* PKUIPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKUIPickerViewController.h; sourceTree = "<group>"; };
+		8E8AA51A19A053C800547AA2 /* PKUIPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKUIPickerViewController.m; sourceTree = "<group>"; };
+		8E8AA51B19A053C800547AA2 /* PKUIPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKUIPickerViewController.xib; sourceTree = "<group>"; };
+		8E8AA51F19A097B300547AA2 /* PKUIDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKUIDatePickerViewController.h; sourceTree = "<group>"; };
+		8E8AA52019A097B300547AA2 /* PKUIDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKUIDatePickerViewController.m; sourceTree = "<group>"; };
+		8E8AA52119A097B300547AA2 /* PKUIDatePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKUIDatePickerViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E8AA4B1199C9D3E00547AA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8AA4BA199C9D3E00547AA2 /* CoreGraphics.framework in Frameworks */,
+				8E8AA4BC199C9D3E00547AA2 /* UIKit.framework in Frameworks */,
+				8E8AA4B8199C9D3E00547AA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E8AA4CC199C9D3E00547AA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8AA4D1199C9D3E00547AA2 /* XCTest.framework in Frameworks */,
+				8E8AA4D3199C9D3E00547AA2 /* UIKit.framework in Frameworks */,
+				8E8AA4D2199C9D3E00547AA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E8AA4AB199C9D3E00547AA2 = {
+			isa = PBXGroup;
+			children = (
+				8E8AA4BD199C9D3E00547AA2 /* PKUIkitDemo */,
+				8E8AA4D6199C9D3E00547AA2 /* PKUIkitDemoTests */,
+				8E8AA4B6199C9D3E00547AA2 /* Frameworks */,
+				8E8AA4B5199C9D3E00547AA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E8AA4B5199C9D3E00547AA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E8AA4B4199C9D3E00547AA2 /* PKUIkitDemo.app */,
+				8E8AA4CF199C9D3E00547AA2 /* PKUIkitDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E8AA4B6199C9D3E00547AA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E8AA4B7199C9D3E00547AA2 /* Foundation.framework */,
+				8E8AA4B9199C9D3E00547AA2 /* CoreGraphics.framework */,
+				8E8AA4BB199C9D3E00547AA2 /* UIKit.framework */,
+				8E8AA4D0199C9D3E00547AA2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E8AA4BD199C9D3E00547AA2 /* PKUIkitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8E8AA4F8199DC6C100547AA2 /* controller */,
+				8E8AA4E9199D12F100547AA2 /* class */,
+				8E8AA4E6199D12D300547AA2 /* view */,
+				8E8AA4C6199C9D3E00547AA2 /* PKAppDelegate.h */,
+				8E8AA4C7199C9D3E00547AA2 /* PKAppDelegate.m */,
+				8E8AA4C9199C9D3E00547AA2 /* Images.xcassets */,
+				8E8AA4BE199C9D3E00547AA2 /* Supporting Files */,
+				8E8AA50C199F0AE400547AA2 /* source */,
+			);
+			path = PKUIkitDemo;
+			sourceTree = "<group>";
+		};
+		8E8AA4BE199C9D3E00547AA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E8AA4BF199C9D3E00547AA2 /* PKUIkitDemo-Info.plist */,
+				8E8AA4C0199C9D3E00547AA2 /* InfoPlist.strings */,
+				8E8AA4C3199C9D3E00547AA2 /* main.m */,
+				8E8AA4C5199C9D3E00547AA2 /* PKUIkitDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E8AA4D6199C9D3E00547AA2 /* PKUIkitDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E8AA4DC199C9D3E00547AA2 /* PKUIkitDemoTests.m */,
+				8E8AA4D7199C9D3E00547AA2 /* Supporting Files */,
+			);
+			path = PKUIkitDemoTests;
+			sourceTree = "<group>";
+		};
+		8E8AA4D7199C9D3E00547AA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E8AA4D8199C9D3E00547AA2 /* PKUIkitDemoTests-Info.plist */,
+				8E8AA4D9199C9D3E00547AA2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E8AA4E6199D12D300547AA2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		8E8AA4E8199D12E900547AA2 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				8E5B08E419A1E83A009EB031 /* PKUIToolBarViewController.xib */,
+				8E5B090319A370FE009EB031 /* PKUISearchBarViewController.xib */,
+				8E36138019A60A3A003AB28E /* PKUITextFieldViewController.xib */,
+				8E5B091D19A496E1009EB031 /* PKPageControlViewController.xib */,
+				8E36138519A62DB0003AB28E /* PKUISliderViewController.xib */,
+				8E5B090819A43501009EB031 /* PKUIControlViewController.xib */,
+				8E36137B19A5AA03003AB28E /* PKUISegmentedViewController.xib */,
+				8E5B091419A469BE009EB031 /* PKUIProgressViewController.xib */,
+				8E5B08FE19A35BFF009EB031 /* PKUITextViewController.xib */,
+				8E5B090D19A44F7F009EB031 /* PKUIButtonViewController.xib */,
+				8E5B08F319A2FC75009EB031 /* PKUIScrollViewController.xib */,
+				8E5B08E919A1F688009EB031 /* PKUIActionSheetViewController.xib */,
+				8E5B08EE19A23421009EB031 /* PKUIAertViewViewController.xib */,
+				8E5B08C919A1969A009EB031 /* PKUITabBarViewController.xib */,
+				8E8AA52119A097B300547AA2 /* PKUIDatePickerViewController.xib */,
+				8E5B08BC19A10804009EB031 /* PKUIImageViewController.xib */,
+				8E8AA516199FBBBA00547AA2 /* PKUILabelViewController.xib */,
+				8E8AA51B19A053C800547AA2 /* PKUIPickerViewController.xib */,
+				8E8AA509199E342300547AA2 /* PKTableViewController.xib */,
+				8E8AA4FB199DC79700547AA2 /* PKMainViewController.xib */,
+				8E5B08B619A0DBD7009EB031 /* PKUIActivityIndicatorViewController.xib */,
+			);
+			name = xib;
+			sourceTree = "<group>";
+		};
+		8E8AA4E9199D12F100547AA2 /* class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = class;
+			sourceTree = "<group>";
+		};
+		8E8AA4F8199DC6C100547AA2 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				8E8AA51E19A053CF00547AA2 /* sub_controller */,
+				8E8AA4F9199DC79700547AA2 /* PKMainViewController.h */,
+				8E8AA4FA199DC79700547AA2 /* PKMainViewController.m */,
+				8E8AA507199E342300547AA2 /* PKTableViewController.h */,
+				8E8AA508199E342300547AA2 /* PKTableViewController.m */,
+				8E8AA4E8199D12E900547AA2 /* xib */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		8E8AA50C199F0AE400547AA2 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				8E3613BB19A634AE003AB28E /* moveButton.png */,
+				8E3613BC19A634AE003AB28E /* minImage.png */,
+				8E3613BD19A634AE003AB28E /* maxImage.png */,
+				8E3613BE19A634AE003AB28E /* backgroundStrip.png */,
+				8E5B091719A481DF009EB031 /* progressfg.png */,
+				8E5B091819A481DF009EB031 /* progressbg.png */,
+				8E5B091019A4627B009EB031 /* background.png */,
+				8E5B08F819A30A56009EB031 /* CuriousFrog.png */,
+				8E5B08DD19A1C889009EB031 /* black_y.png */,
+				8E5B08D419A1B6B1009EB031 /* champion.png */,
+				8E5B08D519A1B6B1009EB031 /* basketball.png */,
+				8E5B08CC19A1A518009EB031 /* sport_status.png */,
+				8E5B08CD19A1A518009EB031 /* more.png */,
+				8E5B08CE19A1A518009EB031 /* main_page.png */,
+				8E5B08CF19A1A518009EB031 /* count_tool.png */,
+				8E5B08C519A10FB2009EB031 /* cat1.jpg */,
+				8E5B08BF19A109B0009EB031 /* cat4.jpeg */,
+				8E5B08C019A109B0009EB031 /* cat3.jpeg */,
+				8E5B08C119A109B0009EB031 /* cat2.jpg */,
+				8E8AA511199F112000547AA2 /* detail.png */,
+				8E8AA50D199F0B2300547AA2 /* file.png */,
+				8E8AA50E199F0B2300547AA2 /* dir.png */,
+			);
+			name = source;
+			sourceTree = "<group>";
+		};
+		8E8AA51E19A053CF00547AA2 /* sub_controller */ = {
+			isa = PBXGroup;
+			children = (
+				8E8AA514199FBBBA00547AA2 /* PKUILabelViewController.h */,
+				8E8AA515199FBBBA00547AA2 /* PKUILabelViewController.m */,
+				8E8AA51919A053C800547AA2 /* PKUIPickerViewController.h */,
+				8E8AA51A19A053C800547AA2 /* PKUIPickerViewController.m */,
+				8E8AA51F19A097B300547AA2 /* PKUIDatePickerViewController.h */,
+				8E8AA52019A097B300547AA2 /* PKUIDatePickerViewController.m */,
+				8E5B08B319A0D856009EB031 /* PKUIActivityIndicatorViewController.h */,
+				8E5B08B419A0D856009EB031 /* PKUIActivityIndicatorViewController.m */,
+				8E5B08BA19A10804009EB031 /* PKUIImageViewController.h */,
+				8E5B08BB19A10804009EB031 /* PKUIImageViewController.m */,
+				8E5B08C719A1969A009EB031 /* PKUITabBarViewController.h */,
+				8E5B08C819A1969A009EB031 /* PKUITabBarViewController.m */,
+				8E5B08E219A1E83A009EB031 /* PKUIToolBarViewController.h */,
+				8E5B08E319A1E83A009EB031 /* PKUIToolBarViewController.m */,
+				8E5B08E719A1F688009EB031 /* PKUIActionSheetViewController.h */,
+				8E5B08E819A1F688009EB031 /* PKUIActionSheetViewController.m */,
+				8E5B08EC19A23421009EB031 /* PKUIAertViewViewController.h */,
+				8E5B08ED19A23421009EB031 /* PKUIAertViewViewController.m */,
+				8E5B08F119A2FC75009EB031 /* PKUIScrollViewController.h */,
+				8E5B08F219A2FC75009EB031 /* PKUIScrollViewController.m */,
+				8E5B08FC19A35BFF009EB031 /* PKUITextViewController.h */,
+				8E5B08FD19A35BFF009EB031 /* PKUITextViewController.m */,
+				8E5B090119A370FE009EB031 /* PKUISearchBarViewController.h */,
+				8E5B090219A370FE009EB031 /* PKUISearchBarViewController.m */,
+				8E5B090619A43501009EB031 /* PKUIControlViewController.h */,
+				8E5B090719A43501009EB031 /* PKUIControlViewController.m */,
+				8E5B090B19A44F7F009EB031 /* PKUIButtonViewController.h */,
+				8E5B090C19A44F7F009EB031 /* PKUIButtonViewController.m */,
+				8E5B091219A469BE009EB031 /* PKUIProgressViewController.h */,
+				8E5B091319A469BE009EB031 /* PKUIProgressViewController.m */,
+				8E5B091B19A496E1009EB031 /* PKPageControlViewController.h */,
+				8E5B091C19A496E1009EB031 /* PKPageControlViewController.m */,
+				8E36137919A5AA03003AB28E /* PKUISegmentedViewController.h */,
+				8E36137A19A5AA03003AB28E /* PKUISegmentedViewController.m */,
+				8E36137E19A60A3A003AB28E /* PKUITextFieldViewController.h */,
+				8E36137F19A60A3A003AB28E /* PKUITextFieldViewController.m */,
+				8E36138319A62DB0003AB28E /* PKUISliderViewController.h */,
+				8E36138419A62DB0003AB28E /* PKUISliderViewController.m */,
+			);
+			name = sub_controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E8AA4B3199C9D3E00547AA2 /* PKUIkitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E8AA4E0199C9D3E00547AA2 /* Build configuration list for PBXNativeTarget "PKUIkitDemo" */;
+			buildPhases = (
+				8E8AA4B0199C9D3E00547AA2 /* Sources */,
+				8E8AA4B1199C9D3E00547AA2 /* Frameworks */,
+				8E8AA4B2199C9D3E00547AA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PKUIkitDemo;
+			productName = PKUIkitDemo;
+			productReference = 8E8AA4B4199C9D3E00547AA2 /* PKUIkitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E8AA4CE199C9D3E00547AA2 /* PKUIkitDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E8AA4E3199C9D3E00547AA2 /* Build configuration list for PBXNativeTarget "PKUIkitDemoTests" */;
+			buildPhases = (
+				8E8AA4CB199C9D3E00547AA2 /* Sources */,
+				8E8AA4CC199C9D3E00547AA2 /* Frameworks */,
+				8E8AA4CD199C9D3E00547AA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E8AA4D5199C9D3E00547AA2 /* PBXTargetDependency */,
+			);
+			name = PKUIkitDemoTests;
+			productName = PKUIkitDemoTests;
+			productReference = 8E8AA4CF199C9D3E00547AA2 /* PKUIkitDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E8AA4AC199C9D3E00547AA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = packy;
+				TargetAttributes = {
+					8E8AA4CE199C9D3E00547AA2 = {
+						TestTargetID = 8E8AA4B3199C9D3E00547AA2;
+					};
+				};
+			};
+			buildConfigurationList = 8E8AA4AF199C9D3E00547AA2 /* Build configuration list for PBXProject "PKUIkitDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E8AA4AB199C9D3E00547AA2;
+			productRefGroup = 8E8AA4B5199C9D3E00547AA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E8AA4B3199C9D3E00547AA2 /* PKUIkitDemo */,
+				8E8AA4CE199C9D3E00547AA2 /* PKUIkitDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E8AA4B2199C9D3E00547AA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5B08F019A23421009EB031 /* PKUIAertViewViewController.xib in Resources */,
+				8E5B08D719A1B6B1009EB031 /* basketball.png in Resources */,
+				8E5B08C619A10FB2009EB031 /* cat1.jpg in Resources */,
+				8E5B08E619A1E83A009EB031 /* PKUIToolBarViewController.xib in Resources */,
+				8E8AA50B199E342300547AA2 /* PKTableViewController.xib in Resources */,
+				8E36137D19A5AA03003AB28E /* PKUISegmentedViewController.xib in Resources */,
+				8E5B08C419A109B0009EB031 /* cat2.jpg in Resources */,
+				8E8AA50F199F0B2300547AA2 /* file.png in Resources */,
+				8E8AA4FD199DC79700547AA2 /* PKMainViewController.xib in Resources */,
+				8E5B090019A35BFF009EB031 /* PKUITextViewController.xib in Resources */,
+				8E5B08BE19A10804009EB031 /* PKUIImageViewController.xib in Resources */,
+				8E5B08DE19A1C889009EB031 /* black_y.png in Resources */,
+				8E5B08D619A1B6B1009EB031 /* champion.png in Resources */,
+				8E5B091919A481DF009EB031 /* progressfg.png in Resources */,
+				8E5B08C319A109B0009EB031 /* cat3.jpeg in Resources */,
+				8E36138719A62DB0003AB28E /* PKUISliderViewController.xib in Resources */,
+				8E5B08F519A2FC75009EB031 /* PKUIScrollViewController.xib in Resources */,
+				8E8AA510199F0B2300547AA2 /* dir.png in Resources */,
+				8E5B090519A370FE009EB031 /* PKUISearchBarViewController.xib in Resources */,
+				8E5B08D019A1A518009EB031 /* sport_status.png in Resources */,
+				8E5B090A19A43501009EB031 /* PKUIControlViewController.xib in Resources */,
+				8E8AA52319A097B300547AA2 /* PKUIDatePickerViewController.xib in Resources */,
+				8E8AA518199FBBBA00547AA2 /* PKUILabelViewController.xib in Resources */,
+				8E5B08CB19A1969A009EB031 /* PKUITabBarViewController.xib in Resources */,
+				8E36138219A60A3A003AB28E /* PKUITextFieldViewController.xib in Resources */,
+				8E5B091F19A496E1009EB031 /* PKPageControlViewController.xib in Resources */,
+				8E3613C019A634AE003AB28E /* minImage.png in Resources */,
+				8E5B08D119A1A518009EB031 /* more.png in Resources */,
+				8E5B08D219A1A518009EB031 /* main_page.png in Resources */,
+				8E5B091119A4627B009EB031 /* background.png in Resources */,
+				8E3613C119A634AE003AB28E /* maxImage.png in Resources */,
+				8E5B091619A469BE009EB031 /* PKUIProgressViewController.xib in Resources */,
+				8E3613BF19A634AE003AB28E /* moveButton.png in Resources */,
+				8E5B08B719A0DBD7009EB031 /* PKUIActivityIndicatorViewController.xib in Resources */,
+				8E5B08D319A1A518009EB031 /* count_tool.png in Resources */,
+				8E8AA4C2199C9D3E00547AA2 /* InfoPlist.strings in Resources */,
+				8E5B091A19A481DF009EB031 /* progressbg.png in Resources */,
+				8E8AA512199F112000547AA2 /* detail.png in Resources */,
+				8E5B090F19A44F7F009EB031 /* PKUIButtonViewController.xib in Resources */,
+				8E5B08FB19A30A56009EB031 /* CuriousFrog.png in Resources */,
+				8E3613C219A634AE003AB28E /* backgroundStrip.png in Resources */,
+				8E8AA4CA199C9D3E00547AA2 /* Images.xcassets in Resources */,
+				8E8AA51D19A053C800547AA2 /* PKUIPickerViewController.xib in Resources */,
+				8E5B08C219A109B0009EB031 /* cat4.jpeg in Resources */,
+				8E5B08EB19A1F688009EB031 /* PKUIActionSheetViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E8AA4CD199C9D3E00547AA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8AA4DB199C9D3E00547AA2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E8AA4B0199C9D3E00547AA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E5B091519A469BE009EB031 /* PKUIProgressViewController.m in Sources */,
+				8E8AA517199FBBBA00547AA2 /* PKUILabelViewController.m in Sources */,
+				8E5B090919A43501009EB031 /* PKUIControlViewController.m in Sources */,
+				8E5B08EA19A1F688009EB031 /* PKUIActionSheetViewController.m in Sources */,
+				8E36138619A62DB0003AB28E /* PKUISliderViewController.m in Sources */,
+				8E5B08CA19A1969A009EB031 /* PKUITabBarViewController.m in Sources */,
+				8E5B08E519A1E83A009EB031 /* PKUIToolBarViewController.m in Sources */,
+				8E5B08EF19A23421009EB031 /* PKUIAertViewViewController.m in Sources */,
+				8E5B08FF19A35BFF009EB031 /* PKUITextViewController.m in Sources */,
+				8E5B090E19A44F7F009EB031 /* PKUIButtonViewController.m in Sources */,
+				8E8AA4FC199DC79700547AA2 /* PKMainViewController.m in Sources */,
+				8E5B08F419A2FC75009EB031 /* PKUIScrollViewController.m in Sources */,
+				8E5B08BD19A10804009EB031 /* PKUIImageViewController.m in Sources */,
+				8E5B091E19A496E1009EB031 /* PKPageControlViewController.m in Sources */,
+				8E5B08B519A0D856009EB031 /* PKUIActivityIndicatorViewController.m in Sources */,
+				8E8AA50A199E342300547AA2 /* PKTableViewController.m in Sources */,
+				8E36138119A60A3A003AB28E /* PKUITextFieldViewController.m in Sources */,
+				8E5B090419A370FE009EB031 /* PKUISearchBarViewController.m in Sources */,
+				8E8AA4C4199C9D3E00547AA2 /* main.m in Sources */,
+				8E36137C19A5AA03003AB28E /* PKUISegmentedViewController.m in Sources */,
+				8E8AA4C8199C9D3E00547AA2 /* PKAppDelegate.m in Sources */,
+				8E8AA52219A097B300547AA2 /* PKUIDatePickerViewController.m in Sources */,
+				8E8AA51C19A053C800547AA2 /* PKUIPickerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E8AA4CB199C9D3E00547AA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8AA4DD199C9D3E00547AA2 /* PKUIkitDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E8AA4D5199C9D3E00547AA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E8AA4B3199C9D3E00547AA2 /* PKUIkitDemo */;
+			targetProxy = 8E8AA4D4199C9D3E00547AA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E8AA4C0199C9D3E00547AA2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E8AA4C1199C9D3E00547AA2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8E8AA4D9199C9D3E00547AA2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E8AA4DA199C9D3E00547AA2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E8AA4DE199C9D3E00547AA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E8AA4DF199C9D3E00547AA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E8AA4E1199C9D3E00547AA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PKUIkitDemo/PKUIkitDemo-Prefix.pch";
+				INFOPLIST_FILE = "PKUIkitDemo/PKUIkitDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7991C245-F95B-424B-A6AD-ED85F7B30620";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8E8AA4E2199C9D3E00547AA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PKUIkitDemo/PKUIkitDemo-Prefix.pch";
+				INFOPLIST_FILE = "PKUIkitDemo/PKUIkitDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7991C245-F95B-424B-A6AD-ED85F7B30620";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8E8AA4E4199C9D3E00547AA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PKUIkitDemo.app/PKUIkitDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PKUIkitDemo/PKUIkitDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PKUIkitDemoTests/PKUIkitDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8E8AA4E5199C9D3E00547AA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PKUIkitDemo.app/PKUIkitDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PKUIkitDemo/PKUIkitDemo-Prefix.pch";
+				INFOPLIST_FILE = "PKUIkitDemoTests/PKUIkitDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E8AA4AF199C9D3E00547AA2 /* Build configuration list for PBXProject "PKUIkitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E8AA4DE199C9D3E00547AA2 /* Debug */,
+				8E8AA4DF199C9D3E00547AA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E8AA4E0199C9D3E00547AA2 /* Build configuration list for PBXNativeTarget "PKUIkitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E8AA4E1199C9D3E00547AA2 /* Debug */,
+				8E8AA4E2199C9D3E00547AA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E8AA4E3199C9D3E00547AA2 /* Build configuration list for PBXNativeTarget "PKUIkitDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E8AA4E4199C9D3E00547AA2 /* Debug */,
+				8E8AA4E5199C9D3E00547AA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E8AA4AC199C9D3E00547AA2 /* Project object */;
+}
