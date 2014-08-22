@@ -28,6 +28,8 @@
 #import "PKUISegmentedViewController.h"
 #import "PKUITextFieldViewController.h"
 #import "PKUISliderViewController.h"
+
+#import "PKUICollectionViewController.h"
 @interface PKTableViewController ()
 {
     UITableView *table;
@@ -67,7 +69,7 @@
                   @"UIImageView",@"UITabBar",@"UIToolBar",@"UINavigationBar",@"UIActionSheet",
                   @"UIAertView",@"UIScrollView",@"UITextView",@"UISearchBar",
                   @"UIControl",@"UIButton",@"UIProgressView",@"UIPageControl",@"UISegmentedControl",
-                  @"UITextField",@"UISlider",@"UISwitch",@"UIWebView"];
+                  @"UITextField",@"UISlider",@"UISwitch",@"UICollectionView"];
 
     // Do any additional setup after loading the view from its nib.
 }
@@ -248,6 +250,9 @@
     }else if ([[dataArray objectAtIndex:indexPath.row] isEqualToString:@"UISwitch"]) {
         PKUISliderViewController *sliderViewController = [[PKUISliderViewController alloc] initWithNibName:@"PKUISliderViewController" bundle:nil];
         [self.navigationController pushViewController:sliderViewController animated:YES];
+    }else if ([[dataArray objectAtIndex:indexPath.row] isEqualToString:@"UICollectionView"]) {
+        PKUICollectionViewController *collectionViewController = [[PKUICollectionViewController alloc] initWithNibName:@"PKUICollectionViewController" bundle:nil];
+        [self.navigationController pushViewController:collectionViewController animated:YES];
     }
     
     

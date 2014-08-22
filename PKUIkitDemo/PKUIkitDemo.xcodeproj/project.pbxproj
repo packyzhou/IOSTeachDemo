@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E16CA0C19A6CE0100F3B41C /* PKUIToolBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E16CA0E19A6CE0100F3B41C /* PKUIToolBarViewController.xib */; };
+		8E16CA1219A6DBBA00F3B41C /* PKUICollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E16CA1019A6DBBA00F3B41C /* PKUICollectionViewController.m */; };
+		8E16CA1319A6DBBA00F3B41C /* PKUICollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E16CA1119A6DBBA00F3B41C /* PKUICollectionViewController.xib */; };
+		8E16CA1F19A6EF4500F3B41C /* cell_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E16CA1519A6EF4500F3B41C /* cell_9.png */; };
+		8E16CA2019A6EF4500F3B41C /* cell_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E16CA1619A6EF4500F3B41C /* cell_8.png */; };
+		8E16CA2119A6EF4500F3B41C /* cell_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E16CA1719A6EF4500F3B41C /* cell_7.png */; };
+		8E16CA2219A6EF4500F3B41C /* cell_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E16CA1819A6EF4500F3B41C /* cell_6.png */; };
+		8E16CA2319A6EF4500F3B41C /* cell_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E16CA1919A6EF4500F3B41C /* cell_5.png */; };
+		8E16CA2419A6EF4500F3B41C /* cell_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E16CA1A19A6EF4500F3B41C /* cell_4.png */; };
+		8E16CA2519A6EF4500F3B41C /* cell_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E16CA1B19A6EF4500F3B41C /* cell_3.png */; };
+		8E16CA2619A6EF4500F3B41C /* cell_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E16CA1C19A6EF4500F3B41C /* cell_2.png */; };
+		8E16CA2719A6EF4500F3B41C /* cell_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E16CA1D19A6EF4500F3B41C /* cell_1.png */; };
+		8E16CA2819A6EF4500F3B41C /* cell_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E16CA1E19A6EF4500F3B41C /* cell_0.png */; };
+		8E16CA2B19A6F1E200F3B41C /* PKMyCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E16CA2A19A6F1E200F3B41C /* PKMyCollectionViewLayout.m */; };
+		8E16CA2E19A7304000F3B41C /* PKMyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E16CA2D19A7304000F3B41C /* PKMyCollectionViewCell.m */; };
 		8E36137C19A5AA03003AB28E /* PKUISegmentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E36137A19A5AA03003AB28E /* PKUISegmentedViewController.m */; };
 		8E36137D19A5AA03003AB28E /* PKUISegmentedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E36137B19A5AA03003AB28E /* PKUISegmentedViewController.xib */; };
 		8E36138119A60A3A003AB28E /* PKUITextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E36137F19A60A3A003AB28E /* PKUITextFieldViewController.m */; };
@@ -35,7 +50,6 @@
 		8E5B08D719A1B6B1009EB031 /* basketball.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B08D519A1B6B1009EB031 /* basketball.png */; };
 		8E5B08DE19A1C889009EB031 /* black_y.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B08DD19A1C889009EB031 /* black_y.png */; };
 		8E5B08E519A1E83A009EB031 /* PKUIToolBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B08E319A1E83A009EB031 /* PKUIToolBarViewController.m */; };
-		8E5B08E619A1E83A009EB031 /* PKUIToolBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B08E419A1E83A009EB031 /* PKUIToolBarViewController.xib */; };
 		8E5B08EA19A1F688009EB031 /* PKUIActionSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B08E819A1F688009EB031 /* PKUIActionSheetViewController.m */; };
 		8E5B08EB19A1F688009EB031 /* PKUIActionSheetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B08E919A1F688009EB031 /* PKUIActionSheetViewController.xib */; };
 		8E5B08EF19A23421009EB031 /* PKUIAertViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B08ED19A23421009EB031 /* PKUIAertViewViewController.m */; };
@@ -96,6 +110,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E16CA0D19A6CE0100F3B41C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PKUIToolBarViewController.xib; sourceTree = "<group>"; };
+		8E16CA0F19A6DBBA00F3B41C /* PKUICollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKUICollectionViewController.h; sourceTree = "<group>"; };
+		8E16CA1019A6DBBA00F3B41C /* PKUICollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKUICollectionViewController.m; sourceTree = "<group>"; };
+		8E16CA1119A6DBBA00F3B41C /* PKUICollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKUICollectionViewController.xib; sourceTree = "<group>"; };
+		8E16CA1519A6EF4500F3B41C /* cell_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell_9.png; path = ../../../../../Desktop/collection/cell_9.png; sourceTree = "<group>"; };
+		8E16CA1619A6EF4500F3B41C /* cell_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell_8.png; path = ../../../../../Desktop/collection/cell_8.png; sourceTree = "<group>"; };
+		8E16CA1719A6EF4500F3B41C /* cell_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell_7.png; path = ../../../../../Desktop/collection/cell_7.png; sourceTree = "<group>"; };
+		8E16CA1819A6EF4500F3B41C /* cell_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell_6.png; path = ../../../../../Desktop/collection/cell_6.png; sourceTree = "<group>"; };
+		8E16CA1919A6EF4500F3B41C /* cell_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell_5.png; path = ../../../../../Desktop/collection/cell_5.png; sourceTree = "<group>"; };
+		8E16CA1A19A6EF4500F3B41C /* cell_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell_4.png; path = ../../../../../Desktop/collection/cell_4.png; sourceTree = "<group>"; };
+		8E16CA1B19A6EF4500F3B41C /* cell_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell_3.png; path = ../../../../../Desktop/collection/cell_3.png; sourceTree = "<group>"; };
+		8E16CA1C19A6EF4500F3B41C /* cell_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell_2.png; path = ../../../../../Desktop/collection/cell_2.png; sourceTree = "<group>"; };
+		8E16CA1D19A6EF4500F3B41C /* cell_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell_1.png; path = ../../../../../Desktop/collection/cell_1.png; sourceTree = "<group>"; };
+		8E16CA1E19A6EF4500F3B41C /* cell_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell_0.png; path = ../../../../../Desktop/collection/cell_0.png; sourceTree = "<group>"; };
+		8E16CA2919A6F1E200F3B41C /* PKMyCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKMyCollectionViewLayout.h; sourceTree = "<group>"; };
+		8E16CA2A19A6F1E200F3B41C /* PKMyCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKMyCollectionViewLayout.m; sourceTree = "<group>"; };
+		8E16CA2C19A7304000F3B41C /* PKMyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKMyCollectionViewCell.h; sourceTree = "<group>"; };
+		8E16CA2D19A7304000F3B41C /* PKMyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKMyCollectionViewCell.m; sourceTree = "<group>"; };
 		8E36137919A5AA03003AB28E /* PKUISegmentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKUISegmentedViewController.h; sourceTree = "<group>"; };
 		8E36137A19A5AA03003AB28E /* PKUISegmentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKUISegmentedViewController.m; sourceTree = "<group>"; };
 		8E36137B19A5AA03003AB28E /* PKUISegmentedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKUISegmentedViewController.xib; sourceTree = "<group>"; };
@@ -131,7 +163,6 @@
 		8E5B08DD19A1C889009EB031 /* black_y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = black_y.png; path = ../../../../../Desktop/frog/black_y.png; sourceTree = "<group>"; };
 		8E5B08E219A1E83A009EB031 /* PKUIToolBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKUIToolBarViewController.h; sourceTree = "<group>"; };
 		8E5B08E319A1E83A009EB031 /* PKUIToolBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKUIToolBarViewController.m; sourceTree = "<group>"; };
-		8E5B08E419A1E83A009EB031 /* PKUIToolBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKUIToolBarViewController.xib; sourceTree = "<group>"; };
 		8E5B08E719A1F688009EB031 /* PKUIActionSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKUIActionSheetViewController.h; sourceTree = "<group>"; };
 		8E5B08E819A1F688009EB031 /* PKUIActionSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKUIActionSheetViewController.m; sourceTree = "<group>"; };
 		8E5B08E919A1F688009EB031 /* PKUIActionSheetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PKUIActionSheetViewController.xib; sourceTree = "<group>"; };
@@ -307,7 +338,8 @@
 		8E8AA4E8199D12E900547AA2 /* xib */ = {
 			isa = PBXGroup;
 			children = (
-				8E5B08E419A1E83A009EB031 /* PKUIToolBarViewController.xib */,
+				8E16CA0E19A6CE0100F3B41C /* PKUIToolBarViewController.xib */,
+				8E16CA1119A6DBBA00F3B41C /* PKUICollectionViewController.xib */,
 				8E5B090319A370FE009EB031 /* PKUISearchBarViewController.xib */,
 				8E36138019A60A3A003AB28E /* PKUITextFieldViewController.xib */,
 				8E5B091D19A496E1009EB031 /* PKPageControlViewController.xib */,
@@ -335,6 +367,10 @@
 		8E8AA4E9199D12F100547AA2 /* class */ = {
 			isa = PBXGroup;
 			children = (
+				8E16CA2919A6F1E200F3B41C /* PKMyCollectionViewLayout.h */,
+				8E16CA2A19A6F1E200F3B41C /* PKMyCollectionViewLayout.m */,
+				8E16CA2C19A7304000F3B41C /* PKMyCollectionViewCell.h */,
+				8E16CA2D19A7304000F3B41C /* PKMyCollectionViewCell.m */,
 			);
 			name = class;
 			sourceTree = "<group>";
@@ -355,6 +391,16 @@
 		8E8AA50C199F0AE400547AA2 /* source */ = {
 			isa = PBXGroup;
 			children = (
+				8E16CA1519A6EF4500F3B41C /* cell_9.png */,
+				8E16CA1619A6EF4500F3B41C /* cell_8.png */,
+				8E16CA1719A6EF4500F3B41C /* cell_7.png */,
+				8E16CA1819A6EF4500F3B41C /* cell_6.png */,
+				8E16CA1919A6EF4500F3B41C /* cell_5.png */,
+				8E16CA1A19A6EF4500F3B41C /* cell_4.png */,
+				8E16CA1B19A6EF4500F3B41C /* cell_3.png */,
+				8E16CA1C19A6EF4500F3B41C /* cell_2.png */,
+				8E16CA1D19A6EF4500F3B41C /* cell_1.png */,
+				8E16CA1E19A6EF4500F3B41C /* cell_0.png */,
 				8E3613BB19A634AE003AB28E /* moveButton.png */,
 				8E3613BC19A634AE003AB28E /* minImage.png */,
 				8E3613BD19A634AE003AB28E /* maxImage.png */,
@@ -422,6 +468,8 @@
 				8E36137F19A60A3A003AB28E /* PKUITextFieldViewController.m */,
 				8E36138319A62DB0003AB28E /* PKUISliderViewController.h */,
 				8E36138419A62DB0003AB28E /* PKUISliderViewController.m */,
+				8E16CA0F19A6DBBA00F3B41C /* PKUICollectionViewController.h */,
+				8E16CA1019A6DBBA00F3B41C /* PKUICollectionViewController.m */,
 			);
 			name = sub_controller;
 			sourceTree = "<group>";
@@ -505,11 +553,12 @@
 				8E5B08F019A23421009EB031 /* PKUIAertViewViewController.xib in Resources */,
 				8E5B08D719A1B6B1009EB031 /* basketball.png in Resources */,
 				8E5B08C619A10FB2009EB031 /* cat1.jpg in Resources */,
-				8E5B08E619A1E83A009EB031 /* PKUIToolBarViewController.xib in Resources */,
+				8E16CA0C19A6CE0100F3B41C /* PKUIToolBarViewController.xib in Resources */,
 				8E8AA50B199E342300547AA2 /* PKTableViewController.xib in Resources */,
 				8E36137D19A5AA03003AB28E /* PKUISegmentedViewController.xib in Resources */,
 				8E5B08C419A109B0009EB031 /* cat2.jpg in Resources */,
 				8E8AA50F199F0B2300547AA2 /* file.png in Resources */,
+				8E16CA2219A6EF4500F3B41C /* cell_6.png in Resources */,
 				8E8AA4FD199DC79700547AA2 /* PKMainViewController.xib in Resources */,
 				8E5B090019A35BFF009EB031 /* PKUITextViewController.xib in Resources */,
 				8E5B08BE19A10804009EB031 /* PKUIImageViewController.xib in Resources */,
@@ -521,9 +570,13 @@
 				8E5B08F519A2FC75009EB031 /* PKUIScrollViewController.xib in Resources */,
 				8E8AA510199F0B2300547AA2 /* dir.png in Resources */,
 				8E5B090519A370FE009EB031 /* PKUISearchBarViewController.xib in Resources */,
+				8E16CA2619A6EF4500F3B41C /* cell_2.png in Resources */,
 				8E5B08D019A1A518009EB031 /* sport_status.png in Resources */,
+				8E16CA2519A6EF4500F3B41C /* cell_3.png in Resources */,
+				8E16CA2019A6EF4500F3B41C /* cell_8.png in Resources */,
 				8E5B090A19A43501009EB031 /* PKUIControlViewController.xib in Resources */,
 				8E8AA52319A097B300547AA2 /* PKUIDatePickerViewController.xib in Resources */,
+				8E16CA2419A6EF4500F3B41C /* cell_4.png in Resources */,
 				8E8AA518199FBBBA00547AA2 /* PKUILabelViewController.xib in Resources */,
 				8E5B08CB19A1969A009EB031 /* PKUITabBarViewController.xib in Resources */,
 				8E36138219A60A3A003AB28E /* PKUITextFieldViewController.xib in Resources */,
@@ -532,8 +585,11 @@
 				8E5B08D119A1A518009EB031 /* more.png in Resources */,
 				8E5B08D219A1A518009EB031 /* main_page.png in Resources */,
 				8E5B091119A4627B009EB031 /* background.png in Resources */,
+				8E16CA2319A6EF4500F3B41C /* cell_5.png in Resources */,
+				8E16CA2819A6EF4500F3B41C /* cell_0.png in Resources */,
 				8E3613C119A634AE003AB28E /* maxImage.png in Resources */,
 				8E5B091619A469BE009EB031 /* PKUIProgressViewController.xib in Resources */,
+				8E16CA2719A6EF4500F3B41C /* cell_1.png in Resources */,
 				8E3613BF19A634AE003AB28E /* moveButton.png in Resources */,
 				8E5B08B719A0DBD7009EB031 /* PKUIActivityIndicatorViewController.xib in Resources */,
 				8E5B08D319A1A518009EB031 /* count_tool.png in Resources */,
@@ -543,7 +599,10 @@
 				8E5B090F19A44F7F009EB031 /* PKUIButtonViewController.xib in Resources */,
 				8E5B08FB19A30A56009EB031 /* CuriousFrog.png in Resources */,
 				8E3613C219A634AE003AB28E /* backgroundStrip.png in Resources */,
+				8E16CA1F19A6EF4500F3B41C /* cell_9.png in Resources */,
+				8E16CA2119A6EF4500F3B41C /* cell_7.png in Resources */,
 				8E8AA4CA199C9D3E00547AA2 /* Images.xcassets in Resources */,
+				8E16CA1319A6DBBA00F3B41C /* PKUICollectionViewController.xib in Resources */,
 				8E8AA51D19A053C800547AA2 /* PKUIPickerViewController.xib in Resources */,
 				8E5B08C219A109B0009EB031 /* cat4.jpeg in Resources */,
 				8E5B08EB19A1F688009EB031 /* PKUIActionSheetViewController.xib in Resources */,
@@ -577,7 +636,10 @@
 				8E5B090E19A44F7F009EB031 /* PKUIButtonViewController.m in Sources */,
 				8E8AA4FC199DC79700547AA2 /* PKMainViewController.m in Sources */,
 				8E5B08F419A2FC75009EB031 /* PKUIScrollViewController.m in Sources */,
+				8E16CA2B19A6F1E200F3B41C /* PKMyCollectionViewLayout.m in Sources */,
+				8E16CA2E19A7304000F3B41C /* PKMyCollectionViewCell.m in Sources */,
 				8E5B08BD19A10804009EB031 /* PKUIImageViewController.m in Sources */,
+				8E16CA1219A6DBBA00F3B41C /* PKUICollectionViewController.m in Sources */,
 				8E5B091E19A496E1009EB031 /* PKPageControlViewController.m in Sources */,
 				8E5B08B519A0D856009EB031 /* PKUIActivityIndicatorViewController.m in Sources */,
 				8E8AA50A199E342300547AA2 /* PKTableViewController.m in Sources */,
@@ -610,6 +672,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		8E16CA0E19A6CE0100F3B41C /* PKUIToolBarViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E16CA0D19A6CE0100F3B41C /* en */,
+			);
+			name = PKUIToolBarViewController.xib;
+			sourceTree = "<group>";
+		};
 		8E8AA4C0199C9D3E00547AA2 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -661,7 +731,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -693,7 +763,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

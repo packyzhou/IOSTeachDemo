@@ -12,6 +12,7 @@
 {
     UIView *oneView;
     UIView *twoView;
+    UIView *threeView;
 }
 @end
 
@@ -36,8 +37,12 @@
     twoView = [[UIView alloc] initWithFrame:CGRectMake(50, 300, 200, 150)];
     twoView.backgroundColor = [UIColor blueColor];
     
+    threeView = [[UIView alloc] initWithFrame:CGRectMake(50, 330, 200, 150)];
+    threeView.backgroundColor = [UIColor yellowColor];
+    
     [self.view addSubview:oneView];
     [self.view addSubview:twoView];
+    [self.view addSubview:threeView];
     
     [_changeButton addTarget:self action:@selector(changeView) forControlEvents:UIControlEventTouchUpInside];
     // Do any additional setup after loading the view from its nib.
@@ -98,8 +103,9 @@
     
     NSInteger index1 = [[self.view subviews] indexOfObject:oneView];
     NSInteger index2 = [[self.view subviews] indexOfObject:twoView];
-    
-    [self.view exchangeSubviewAtIndex:index1 withSubviewAtIndex:index2];
+    NSInteger index3 = [[self.view subviews] indexOfObject:threeView];
+    [self.view bringSubviewToFront:oneView];
+//    [self.view exchangeSubviewAtIndex:index1 withSubviewAtIndex:index2];
     [oneView.layer removeAnimationForKey:@"oneAnimation"];
     [oneView.layer addAnimation:twoAnimation forKey:@"twoAnimation"];
     
