@@ -65,11 +65,11 @@
     [self.view addSubview: table];
     [super viewDidLoad];
     //初始化数据
-    dataArray = @[@"UILabel",@"UIPickerView",@"UIDatePicker",@"UIActivityIndicatorView",
+    dataArray = @[@"UILabel",@"UICollectionView",@"UIDatePicker",@"UIActivityIndicatorView",
                   @"UIImageView",@"UITabBar",@"UIToolBar",@"UINavigationBar",@"UIActionSheet",
                   @"UIAertView",@"UIScrollView",@"UITextView",@"UISearchBar",
                   @"UIControl",@"UIButton",@"UIProgressView",@"UIPageControl",@"UISegmentedControl",
-                  @"UITextField",@"UISlider",@"UISwitch",@"UICollectionView"];
+                  @"UITextField",@"UISlider",@"UISwitch",@"UIPickerView"];
 
     // Do any additional setup after loading the view from its nib.
 }

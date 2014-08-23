@@ -14,6 +14,7 @@ static NSString *cellStr = @"CollectionCell";
     NSArray *imageArray;
     PKMyCollectionViewCell *collectionViewCell;
     NSInteger cellCount;
+    NSLock *lockEntity ;
 }
 @end
 
@@ -30,10 +31,35 @@ static NSString *cellStr = @"CollectionCell";
 
 - (void)viewDidLoad
 {
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"显示" style:UIBarButtonItemStylePlain target:self action:@selector(appearThread)];
+//    lockEntity= [[NSLock alloc] init];
     [super viewDidLoad];
     [self initImageData];
     [self initCollectionView];
+    
     // Do any additional setup after loading the view from its nib.
+}
+
+-(void) appearAllData:(NSNumber *) index
+{
+//    [lockEntity lock];
+    NSLog(@"显示:%i",[index intValue]);
+    cellCount = cellCount + 1;
+    [collectionView performBatchUpdates:^{
+        [collectionView insertItemsAtIndexPaths:[NSArray arrayWithObject:[NSIndexPath indexPathForItem:0 inSection:0]]];
+    } completion:nil];
+   
+//   [lockEntity unlock];
+}
+
+-(void) appearThread
+{
+    for (int i = 0; i < imageArray.count;i++) {
+       
+        [self appearAllData:[NSNumber numberWithInt:i]];
+        
+    }
+    
 }
 
 -(void) initImageData
@@ -43,14 +69,14 @@ static NSString *cellStr = @"CollectionCell";
                    [UIImage imageNamed:@"cell_4"],[UIImage imageNamed:@"cell_5"],
                    [UIImage imageNamed:@"cell_6"],[UIImage imageNamed:@"cell_7"],
                    [UIImage imageNamed:@"cell_8"],[UIImage imageNamed:@"cell_9"]];
-    cellCount = [imageArray count];
+    cellCount = 0;
 }
 
 -(void) initCollectionView
 {
     myLayout = [[PKMyCollectionViewLayout alloc] init];
     myLayout.delegate = self;
-    myLayout.cellCount = [imageArray count];
+    myLayout.cellCount = cellCount;
     
     collectionView = [[UICollectionView alloc] initWithFrame:self.view.frame collectionViewLayout:myLayout];
     collectionView.backgroundColor = [UIColor clearColor];
@@ -58,7 +84,7 @@ static NSString *cellStr = @"CollectionCell";
     collectionView.delegate = self;
     collectionView.dataSource = self;
     UITapGestureRecognizer* tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTapGesture:)];
-    [collectionView addGestureRecognizer:tapRecognizer];
+    [collectionView addGestureRecognizer:tapRecognizer];//增加手势操作，跟代理方法冲突
     [collectionView registerClass:[PKMyCollectionViewCell class] forCellWithReuseIdentifier:cellStr];
     [self.view addSubview:collectionView];
 }
@@ -67,8 +93,9 @@ static NSString *cellStr = @"CollectionCell";
     
     if (sender.state == UIGestureRecognizerStateEnded)
     {
-        CGPoint initialPinchPoint = [sender locationInView:collectionView];
-        NSIndexPath* tappedCellPath = [collectionView indexPathForItemAtPoint:initialPinchPoint];
+        CGPoint initialPinchPoint = [sender locationInView:collectionView];//获得点击的坐标
+        
+        NSIndexPath* tappedCellPath = [collectionView indexPathForItemAtPoint:initialPinchPoint];//根据点击坐标获取索引
         if (tappedCellPath!=nil)
         {
             cellCount = cellCount - 1;
@@ -89,9 +116,15 @@ static NSString *cellStr = @"CollectionCell";
 
 - (NSInteger)collectionView:(UICollectionView *)view numberOfItemsInSection:(NSInteger)section;
 {
+    
     return cellCount;
 }
 
+//配置头脚注
+//- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath
+//{
+//    return nil;
+//}
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)aCollectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath//每个cell的配置
 {
@@ -105,6 +138,40 @@ static NSString *cellStr = @"CollectionCell";
     return collectionViewCell;
 }
 
+-(void) collectionView:(UICollectionView *)aCollectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSLog(@"选择：%i",indexPath.row);
+    if (indexPath!=nil)
+    {
+        cellCount = cellCount - 1;
+        [aCollectionView performBatchUpdates:^{
+            [aCollectionView deleteItemsAtIndexPaths:[NSArray arrayWithObject:indexPath]];
+            
+        } completion:nil];
+    }
+    else
+    {
+        cellCount = cellCount + 1;
+        [aCollectionView performBatchUpdates:^{
+            [aCollectionView insertItemsAtIndexPaths:[NSArray arrayWithObject:[NSIndexPath indexPathForItem:0 inSection:0]]];
+        } completion:nil];
+    }
+
+}
+
+- (BOOL)collectionView:(UICollectionView *)collectionView shouldSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    return YES;
+}
+
+-(void) dealloc
+{
+    NSLog(@"清理内存");
+    imageArray = nil;
+    collectionViewCell = nil;
+    collectionView = nil;
+    
+}
 
 - (void)didReceiveMemoryWarning
 {
